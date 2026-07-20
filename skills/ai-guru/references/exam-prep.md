@@ -31,7 +31,7 @@ On top of standard intake, get:
 
 ## Session structure (every session)
 
-1. **Retrieval warm-up (5 min)** — before anything new, quiz material from ~1 session ago and ~3 sessions ago. Expanding intervals: material they nail moves to longer gaps; anything missed re-enters the short queue and shows up next session. This is where retention actually gets built — never skip it.
+1. **Retrieval warm-up (3–5 min)** — the standard session-opening retrieval from SKILL.md, run off the review queue in the exam's real question format. This is where retention actually gets built — never skip it in exam mode.
 2. **Main block** — teach or drill the day's topic using the standard teaching loop, with quiz questions written in the exam's real format and difficulty.
 3. **Close** — update the heat map if it moved, then preview: "Next session's warm-up will pull from [X] and [Y] — a quick look tonight will make it easy."
 
@@ -64,7 +64,9 @@ Track which error type dominates and tell them: "You're not losing marks on know
 
 ## Sessions don't share memory
 
-You won't remember previous sessions unless the conversation continues. Handle it explicitly:
+Use the session-memory file from SKILL.md as the primary mechanism: write the heat map, review queue, and where you left off into `~/.ai-guru/<topic-slug>.md` at the end of every session, and read it back at the start of the next — resume directly, don't rebuild the map by interrogating the learner.
+
+Only when there's no file persistence (plain chat, no filesystem), fall back to the portable flow:
 
 - **End of every session**: give a recap block they can save and paste next time — heat map, review queue (what's due at 1-session and 3-session intervals), and where you left off.
 - **Start of every session**: ask "paste your recap from last time, or just tell me — where did we leave off, and what were your weak areas?" Rebuild the map from their answer.

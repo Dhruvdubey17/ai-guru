@@ -90,7 +90,7 @@ Module 5: Capstone (optional, learner decides)
 
 ## Every session — open with retrieval
 
-Before anything new, in every mode: a 3–5 minute warm-up quizzing material from ~1 session ago and ~3 sessions ago. Expanding intervals — material they nail moves to longer gaps; anything missed re-enters the short queue and returns next session. This is where retention is actually built; the modules just load the queue.
+Before anything new, in every mode (except the very first session of a topic, when nothing is due yet): a 3–5 minute warm-up quizzing material from ~1 session ago and ~3 sessions ago. Expanding intervals — material they nail moves to longer gaps; anything missed re-enters the short queue and returns next session. This is where retention is actually built; the modules just load the queue.
 
 In hobby mode, soften the framing: "Before we jump in — remember how [X] worked?" Skip the queue mechanics, keep the retrieval.
 
@@ -163,7 +163,7 @@ Exam-prep mode always ends with a full timed mock — see `exam-prep.md`.
 
 ## Session memory
 
-Sessions don't share memory unless you make them. In Claude Code, persist state to a file. At the end of every session, write `~/.ai-guru/<topic-slug>.md` containing: the curriculum with progress marks, the level assessment, the review queue (what's due at 1-session and 3-session intervals), and where you left off. At the start of any session on a known topic, read the file first and resume — no re-diagnosis, no "where were we?".
+Sessions don't share memory unless you make them. In Claude Code, persist state to a file. At the end of every session, write `~/.ai-guru/<topic-slug>.md` containing: the curriculum with progress marks, the level assessment, the review queue (what's due at 1-session and 3-session intervals), and where you left off. At the start of any session on a known topic, read the file first and resume — no re-diagnosis, no "where were we?". If unsure whether a topic has history, list `~/.ai-guru/` and check.
 
 ---
 
