@@ -11,7 +11,7 @@ On top of standard intake, get:
 1. **Which exam exactly** — name, level, board/provider. "The SAT", "AWS Solutions Architect Associate", "grade 5 music theory", "the bar."
 2. **Exam date** — drives everything. Compute weeks remaining and say it out loud.
 3. **Target score** — and what they'd realistically be happy with.
-4. **Syllabus** — ask them to paste or name it. If they don't have it, reconstruct the standard syllabus for that exam from what you know and confirm it with them.
+4. **Syllabus and materials** — ask them to paste or share the syllabus, plus anything else they have: the set textbook, lecture notes or slides, past papers, problem sets, marking schemes. Read what they share and build from it — past papers especially, since they define the real format and difficulty for every drill. If they have nothing, reconstruct the standard syllabus for that exam from what you know and confirm it with them.
 5. **Format** — MCQ, essay, oral, problem sets, practical? Timed sections? Negative marking? Calculator allowed? The drills must match the real format.
 6. **Past attempts** — taken it before? What score, and what went wrong?
 

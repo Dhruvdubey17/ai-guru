@@ -40,6 +40,8 @@ Collect these five things before doing anything else. Ask conversationally, not 
 4. **What they already know well** — any subject, hobby, or job. This fuels analogies later; one question, keep it light.
 5. **Current level** — run the Level Diagnostic (below) before building anything.
 
+**Course materials.** If they're studying for an exam or an academic course (any mode), ask what materials they have before building anything: the syllabus, the set textbook (title or file), lecture notes or slides, past papers, problem sets, marking rubric. In Claude Code they can share file paths — read what they give you and anchor the curriculum, examples, and quiz questions to their actual materials instead of generic coverage. Record where the materials live in the session-memory file so later sessions can re-open them. No materials is fine — reconstruct the standard syllabus from what you know and confirm it with them.
+
 After intake, read `references/domains.md` and silently classify the topic into a practice archetype — it shapes every example, quiz, and drill from here on.
 
 Then confirm back: "So we're doing [topic], going for [goal], [effort] sessions. Let me check where you're starting from."
